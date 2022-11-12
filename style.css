@@ -1,0 +1,180 @@
+
+/* NAVBAR */
+
+.navbar{
+    display: grid;
+    grid-template-columns: 6fr repeat(5, 1fr);
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 20px;
+}
+a:hover{
+    color: hsl(5, 85%, 63%);
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.navitems{
+
+    display: flex;
+    justify-content: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+   
+#logonav{
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+#logonav:hover{
+    color: hsl(5, 85%, 63%);
+    transition: 0.5s;
+
+}
+
+
+
+/* GRID ARTICLE Y ASIDE */
+#grid1{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    grid-column-gap: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerarticle{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* ASIDE STYLE */
+
+.aside{
+    background-color: hsl(240, 100%, 5%);
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+#tituloaside{
+    color: hsl(35, 77%, 62%);
+    font-size: 23px;
+    margin-bottom: 60px;
+}
+.infoaside{
+    color: white; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.paside{
+    font-size: 16px;
+    color: hsl(237, 12%, 59%);
+    
+}
+.paside:hover{
+    color: rgb(255, 255, 255);
+}
+.titulo2aside{
+    font-size: 22px;
+    color: white;
+}
+.titulo2aside:hover{
+    color: hsl(5, 85%, 63%);
+    
+}
+
+/* ARTICLE FOOTER */
+
+
+#h1titulo{
+    
+    padding-right: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:70px;
+    margin-top: 15px; 
+    font-weight: bold;
+    line-height: 60px;
+    
+}
+
+#parrafo1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-right: 80px;
+    color: hsl(0, 0%, 43%);
+}
+
+button{
+        width: 230px;
+        height: 60px;
+        margin-top: 20px;
+        background-color: hsl(5, 85%, 63%);
+        border: 0px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        color: white;
+        letter-spacing: 3px;
+
+}
+button:hover{
+    background-color: hsl(35, 77%, 62%);
+    transition: 0.5s;
+    font-size: 20px;
+
+}
+
+/* FOOTER GRID */
+
+.padrefooter{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    margin-top: 60px;
+    
+}
+
+h2{
+    
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: hsl(233, 8%, 79%);
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px; 
+    letter-spacing: 1px;
+    margin-top: 0px;
+    
+}
+h4{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: hsl(237, 12%, 59%);
+    margin-top: 10px;
+    
+}
+#caja1{
+    display: flex;
+    flex-direction: column;
+}
+#caja2{
+    display: flex;
+    flex-direction: column;
+}
+#caja3{
+    display: flex;
+    flex-direction: column;
+}
