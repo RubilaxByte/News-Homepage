@@ -1,4 +1,4 @@
-# Front-end Style Guide
+<!-- # Front-end Style Guide
 
 ## Layout
 
@@ -30,4 +30,4 @@ Very dark blue: hsl(240, 100%, 5%)
 ### Font
 
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
-- Weights: 400, 700, 800
+- Weights: 400, 700, 800 -->
